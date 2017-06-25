@@ -1,0 +1,25 @@
+# NOTE! Please use 'git ls-files -i --exclude-standard'
+# Normal rules
+.*
+*.o
+*.d
+*.a
+*.so
+*.elf
+*.bin
+
+#
+# Top-level generic files
+#
+!.gitignore
+
+#
+# Generated include files
+#
+bin/
+lib/
+obj/
+
+*.orig
+*~
+\#*#
