@@ -156,7 +156,7 @@ void Tracer::DelEntry(void* p)
 	}
 }
 
-static const char* logfile = "tracer.log";
+static const char* logfile = "/data/misc/qmmf/tracer.log";
 
 void Tracer::ShowLeaks()
 {
